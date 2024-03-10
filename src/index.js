@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
+import './script-parallax.js'
 import Servicios from './views/servicios'
 import Home from './views/home'
 import NotFound from './views/not-found'
