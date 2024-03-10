@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
+import Servicios from './views/servicios'
 import Home from './views/home'
 import NotFound from './views/not-found'
 
@@ -15,6 +16,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
+        <Route component={Servicios} exact path="/servicios" />
         <Route component={Home} exact path="/" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
